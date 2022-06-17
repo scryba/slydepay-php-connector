@@ -7,9 +7,35 @@ You can sign up for a Slydepay Merchant account at https://app.slydepay.com.gh/a
 
 It's recommended that you use [Composer](https://getcomposer.org/) to install Slydepay PHP.
 
-```bash
-$ composer require slydepay/slydepay-soap
 ```
+Add the following to your composer.json file:
+
+```
+"require": {
+    "slydepay/slydepay-soap": "dev-master",
+},
+
+
+"repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:scryba/slydepay-php-connector.git"
+        }
+    ],
+
+
+```
+After run:
+
+```
+composer update
+
+```
+
+DEPRECATION NOTICE 
+===================
+This connector will be completely unmaintained and will remain listed until end of year 2021. Thanks to all of you who  trusted it and used it
+
 
 This will require Slydepay PHP and all its dependencies. Slydepay PHP requires PHP 5.6 or newer.
 
