@@ -7,7 +7,7 @@ You can sign up for a Slydepay Merchant account at https://app.slydepay.com.gh/a
 
 It's recommended that you use [Composer](https://getcomposer.org/) to install Slydepay PHP.
 
-```
+
 Add the following to your composer.json file:
 
 ```
@@ -27,7 +27,7 @@ Add the following to your composer.json file:
 ```
 After run:
 
-```
+```bash
 composer update
 
 ```
