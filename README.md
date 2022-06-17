@@ -1,7 +1,5 @@
-Slydepay PHP Connector
+FORKED VERSION
 =====================
-
-You can sign up for a Slydepay Merchant account at https://app.slydepay.com.gh/auth/signup#business_reg
 
 ## Installation
 
@@ -9,6 +7,7 @@ It's recommended that you use [Composer](https://getcomposer.org/) to install Sl
 
 
 Add the following to your composer.json file:
+
 
 ```
 "require": {
@@ -23,18 +22,26 @@ Add the following to your composer.json file:
         }
     ],
 
-
 ```
+
 After run:
+
 
 ```bash
 composer update
 
 ```
 
+
 DEPRECATION NOTICE 
 ===================
 This connector will be completely unmaintained and will remain listed until end of year 2021. Thanks to all of you who  trusted it and used it
+
+
+Slydepay PHP Connector
+=====================
+
+You can sign up for a Slydepay Merchant account at https://app.slydepay.com.gh/auth/signup#business_reg
 
 
 This will require Slydepay PHP and all its dependencies. Slydepay PHP requires PHP 5.6 or newer.
